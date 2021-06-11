@@ -17,9 +17,10 @@
 
 <body>
 
-    <section>  <!-- Inicio da Navbar -->
+    <section>
+        <!-- Inicio da Navbar -->
         <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <nav class="navbar navbar-expand-lg navbar-dark">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#">telechamada.com</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -30,13 +31,13 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link" href="#sobreId">SOBRE</a> <!--lembrar de ver se funciona esse id-->
+                                <a class="nav-link" href="#sobreId">SOBRE</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">CONTATO</a>
+                                <a class="nav-link" href="#caracteristicasId">CARACTERÍSTICAS</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Link</a>
+                                <a class="nav-link" href="#contatoId">CONTATO</a>
                             </li>
                         </ul>
                     </div>
@@ -45,53 +46,114 @@
         </div>
     </section>
 
-    <section>  <!-- Inicio imagem principal -->
+    <section>
+        <!-- Inicio imagem principal -->
         <div class="container">
-            <img src="imagens/image 1.jpg" alt=""> <!--corrigir essa imagem que nao ajusta conforme o tamanho da tela-->
+            <img src="imagens/image 1.jpg" class="imagemPrincipal" alt="">
+            <!--corrigir essa imagem que nao ajusta conforme o tamanho da tela-->
         </div>
     </section>
 
 
-    <section> <!-- Inicio da introdução -->
+    <section id="sobreId">
+        <!-- Inicio da introdução -->
         <div class="container">
 
             <div class="textoSobre">
 
-                <h2>Teste</h2>
-                <p>teste de texto</p>
+                <h2>Conheça o Picturephone</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec quam volutpat, pulvinar risus vitae,
+                    ullamcorper lectus. Nunc semper odio in ultricies pharetra. Nunc tempus arcu lectus. Nam eu viverra.
+                </p>
+            </div>
 
+            <div class="row">
+                <div class="col-md-8 col-sm-12">
+                    <h2>Como na vida real</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec quam volutpat, pulvinar risus
+                        vitae, ullamcorper lectus. Nunc semper odio in ultricies pharetra. Nunc tempus arcu lectus. Nam
+                        eu viverra.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec quam volutpat, pulvinar risus
+                        vitae, ullamcorper lectus. Nunc semper odio in ultricies pharetra. Nunc tempus arcu lectus. Nam
+                        eu viverra.</p>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <img src="imagens/image 3.jpg" class="imagemPrincipal" alt="">
+                </div>
             </div>
 
         </div>
     </section>
 
 
-    <section>
-        <div class="container">
-            texto com imagem ao lado
+    <section id="caracteristicasId">
+        <!-- Inicio de caracteristicas -->
+        <div class="container espacamento">
+            <h2>Característcas</h2>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card">
+                        <img src="imagens/image 2.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Tempo real</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec quam
+                                volutpat, pulvinar risus vitae, ullamcorper lectus. Nunc semper odio in ultricies
+                                pharetra. Nunc tempus arcu lectus. Nam eu viverra.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card">
+                        <img src="imagens/image 4.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Transmita dados</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec quam
+                                volutpat, pulvinar risus vitae, ullamcorper lectus. Nunc semper odio in ultricies
+                                pharetra. Nunc tempus arcu lectus. Nam eu viverra.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </section>
 
-
-    <section>
-        <div class="container">
-            caracteristicas
+    <section id="contatoId">
+        <div class="container espacamento">
+            <!-- Inicio de contato -->
+            <div class="row">
+                <div class="col-md-8 col-sm-12">
+                    <div class="row">
+                        <div class="col">
+                            <img src="imagens/image 5.jpg" class="imagemCircle" alt="" class="imgContato">
+                        </div>
+                        <div class="col">
+                            <h1>“É uma maravilha! Parece que estou lá na casa da minha mãe”</h1>
+                            <h6>Joana da Silva</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Quer falar pelo Picturephone?</h5>
+                            <p class="card-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec quam
+                                volutpat, pulvinar risus vitae, ullamcorper lectus.</p>
+                            <a href="#" class="botaoContato btn">Ligue agora!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
-    <section>
-        <div class="container">
-            imagem, texto e card com botão
+    <footer>
+        <div class="container rodape">
+            <h2>telechamada.com</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
         </div>
-    </section>
-
-    <section>
-        <div class="container">
-            rodape
-        </div>
-    </section>
-
-
+    </footer>
 
     <!-- Code JS Bootstrap-->
 

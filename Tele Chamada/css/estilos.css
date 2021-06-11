@@ -1,7 +1,43 @@
-.alingNavbar{
-    display: flex;
+.navbar{
+    background-color: #BF1717;
+    padding: 2rem;
 }
 
-.itemNavbar{
-    padding-right: 45px;
+.imagemPrincipal{
+    width: 100%;
+}
+
+.espacamento{
+    padding: 3rem;
+}
+
+.textoSobre{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.imagemCircle{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.botaoContato{
+    background: #BF1717;
+    color: white;
+}
+
+.card-body{
+    background-color: #E5E5E5;
+;
+}
+
+.rodape{
+    background-color: #BF1717;
+    color: white;
+    padding: 1rem;
 }
