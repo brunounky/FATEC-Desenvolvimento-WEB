@@ -1,0 +1,40 @@
+
+.principal {
+    padding-top: 2rem;
+}
+
+.textoTitulo {
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FD0D55;
+}
+
+.espacamento {
+    margin-bottom: 2rem;
+}
+
+.card{
+    background-color: #EEEEEE;
+}
+
+.botao{
+    background-color: #FD0D55;
+    border-color: #FD0D55;
+}
+
+.textoTopicos{
+    color: black;
+}
+
+.rodape{
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color: #FD0D55;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
