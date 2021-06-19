@@ -1,9 +1,13 @@
-
-.principal {
-    padding-top: 2rem;
+.card{
+    background-color: #eeeeee;
 }
 
-.textoTitulo {
+.btn{
+    background: #fd0d55;
+    border-color: #fd0d55;
+}
+
+.titulo{
     font-style: italic;
     font-weight: bold;
     text-decoration: none;
@@ -12,21 +16,26 @@
     color: #FD0D55;
 }
 
-.espacmento {
-    margin-bottom: 1rem;
-}
-
-.card{
-    background-color: #EEEEEE;
-}
-
-.botao{
-    background-color: #FD0D55;
-    border-color: #FD0D55;
-}
-
-.textoTopicos{
+.menutexto{
     color: black;
+}
+
+.principal{
+    padding-top: 2rem;
+}
+
+.imagicon{
+    width: 30;
+    height: 30;
+    padding-right: 1rem;
+}
+
+.espacamento {
+    margin-bottom: 2rem;
+}
+
+.espacamentoimagem{
+    padding: 1rem;
 }
 
 .rodape{
